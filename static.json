@@ -1,4 +1,7 @@
 {
+  "routes": {
+    "/": "public_html/index.html"
+  },
   "headers": {
     "*/": {
       "X-Author": "itmo309574",
