@@ -1,9 +1,11 @@
 {
   "routes": {
-    "/": "index.html"
+    "/login/": "index.html",
+    "/sample/": "task.html"
   },
   "headers": {
     "*/": {
+      "Content-Type": "text/plain; charset=UTF-8",
       "X-Author": "itmo309574",
       "Access-Control-Allow-Origin": "*"
     }
