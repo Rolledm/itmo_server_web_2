@@ -1,0 +1,10 @@
+<input id="inp" />
+<button onclick="fn()" id="bt">Click</button>
+<script type="text/javascript">
+    async function fn() {
+        let url = document.getElementById('inp').value;
+        let response = await fetch(url);
+        let text = await response.text;
+        document.getElementById('inp').value = text;
+    }
+</script>
